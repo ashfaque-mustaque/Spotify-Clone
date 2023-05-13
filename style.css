@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Comforter&family=IBM+Plex+Sans+Thai+Looped:wght@100;200;600&display=swap");
+body{
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  height: 69px;
+  background: rgb(68, 65, 76);
+  color: rgb(255, 255, 255);
+}
+nav ul li {
+  padding: 0 12px;
+  cursor: pointer;
+}
+nav ul li:hover {
+  background-color: white;
+  color: aqua;
+  border-radius: 6px;
+  margin: 4px;
+  padding: 2px;
+}
+
+.brand img {
+  height: 55px;
+  width: 60px;
+  padding: 0 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.container {
+  min-height: 55vh;
+  background: url(images/hd-wallpaper-gef78730f3_1920.jpg) no-repeat center;
+
+  
+  background-size: cover;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border-radius: 12px;
+  padding: 28px;
+}
+
+.bottom {
+  position: sticky;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+.icons {
+  margin: 12px 0;
+}
+.icons i {
+  cursor: pointer;
+}
+#myProgressbar {
+  width: 80vw;
+  text-align: center;
+  cursor: pointer;
+}
+.songItemcontainer {
+  margin: 24px;
+}
+.songItem {
+  height: 27px;
+    display: flex;
+    background-color: rgb(208, 56, 56);
+    color: black;
+    
+    width: 77%;
+    margin: 6px 0;
+    justify-content: space-between;
+    align-items: center;
+    border: 7px solid white;
+    border-radius: 48px;
+}
+.songItem img {
+  width: 28px;
+  height: 26px;
+  margin: 0 23px;
+}
+.timestamp {
+  margin: 0 6px;
+  cursor: pointer;
+}
+.timestamp i {
+  margin: 8px;
+}
+.songinfo {
+  position: absolute;
+  left: 10vw;
+  padding: 2px;
+}
+.songinfo img {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
